@@ -6,3 +6,10 @@ button, input, select {
   button {
     background-color: rgb(86, 149, 86);
   }
+  
+  input, textarea, select, button {
+    width : 150px;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
