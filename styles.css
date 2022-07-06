@@ -18,3 +18,8 @@ fieldset{
     display: flex;
     column-count: 2;
 }
+
+.title{
+    padding: 0;
+    margin: 0;
+}
