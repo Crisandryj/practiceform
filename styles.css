@@ -1,0 +1,8 @@
+button, input, select {
+    font-family: inherit;
+    font-size: 100%;
+  }
+
+  button {
+    background-color: rgb(86, 149, 86);
+  }
