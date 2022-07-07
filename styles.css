@@ -1,9 +1,17 @@
 body{
   display: flex;
+  margin-left: 200px;
+  margin-right: 200px;
+  border-left: 20px;
+  border-right: 20px;
+  border-color: #000;
+
+
 }
 
 #image{
     background-image: url(background.avif);
+    width: 50vw;
 }
 
 button, input, select {
