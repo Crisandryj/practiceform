@@ -1,3 +1,11 @@
+body{
+  display: flex;
+}
+
+#image{
+    background-image: url(background.avif);
+}
+
 button, input, select {
     font-family: inherit;
     font-size: 100%;
@@ -16,7 +24,6 @@ button, input, select {
 
 fieldset{
     display: flex;
-    column-count: 2;
 }
 
 .title{
@@ -31,11 +38,23 @@ ul {
   }
 
   form {
+    height: 100vh;
+    background-color: white;
     /* Center the form on the page */
     margin: 0 auto;
-    width: 400px;
+    width: 50vw;
     /* Form outline */
     padding: 1em;
     border: 1px solid #CCC;
     border-radius: 1em;
+   
   }
+
+  form li + li {
+    margin-top: 1em;
+  }
+
+  input:focus{
+  /* Additional highlight for focused elements */
+  border-color: #000;
+}
