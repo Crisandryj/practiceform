@@ -46,11 +46,11 @@ ul {
   }
 
   form {
-    height: 100vh;
     background-color: white;
     /* Center the form on the page */
     margin: 0 auto;
     width: 50vw;
+    height: 33vh;
     /* Form outline */
     padding: 1em;
     border: 1px solid #CCC;
@@ -66,3 +66,25 @@ ul {
   /* Additional highlight for focused elements */
   border-color: #000;
 }
+
+.rows{
+  display: flex;
+  flex-direction: column;
+}
+
+#row1 {
+  height: 33vh;
+  background-color: purple;
+}
+
+#row2 {
+  height: 33vh;
+  background-color: blue;
+}
+
+
+#row3 {
+  height: 33vh;
+  background-color: yellow;
+}
+
