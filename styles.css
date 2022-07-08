@@ -13,6 +13,13 @@ body{
     background-image: url(background.avif);
     width: 50vw;
 }
+img{
+  height:25vh ;
+}
+span{
+  color: white;
+  font-size: 3rem;
+}
 
 button, input, select {
     font-family: inherit;
