@@ -8,13 +8,29 @@ body{
 
 
 }
+.top{
+  height: 25vh;
+  background-color: blue;
+}
+
+#middle{
+  background-color: #000;
+  align-content: space-between;  
+}
+
+.bottom{
+  height: 25vh;
+  background-color: purple;
+}
 
 #image{
+    display: flex;
+    flex-direction: column;
     background-image: url(background.avif);
     width: 50vw;
 }
 img{
-  height:25vh ;
+  height:20vh ;
 }
 span{
   color: white;
