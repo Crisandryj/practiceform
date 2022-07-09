@@ -9,7 +9,7 @@ body{
 
 }
 .top{
-  height: 25vh;
+  height:12vh;
   background-color: blue;
 }
 
@@ -19,7 +19,7 @@ body{
 }
 
 .bottom{
-  height: 25vh;
+  height: 30vh;
   background-color: purple;
 }
 
