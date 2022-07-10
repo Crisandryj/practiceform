@@ -32,9 +32,8 @@ body{
 img{
   height:20vh ;
 }
-span{
-  color: white;
-  font-size: 3rem;
+logo{
+  display: flex;
 }
 
 button, input, select {
