@@ -23,6 +23,10 @@ body{
   background-color: purple;
 }
 
+#odin {
+  color: white;
+  font-size: 3rem;
+}
 #image{
     display: flex;
     flex-direction: column;
@@ -30,10 +34,12 @@ body{
     width: 50vw;
 }
 img{
-  height:20vh ;
+  height:17vh ;
 }
-logo{
+
+.logo{
   display: flex;
+  flex-direction: row;
 }
 
 button, input, select {
