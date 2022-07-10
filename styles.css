@@ -1,3 +1,8 @@
+@font-face {
+  font-family: my-cool-font;
+  src: url(Norse-Bold.otf);
+}
+
 body{
   display: flex;
   margin-left: 200px;
@@ -120,6 +125,7 @@ ul {
 }
 
 #row1 > p {
+  font-family: my-cool-font;
   font-size: 2rem;
 
 }
