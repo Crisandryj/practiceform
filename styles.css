@@ -51,10 +51,11 @@ button, input, select {
   }
 
   button {
-    background-color: rgb(86, 149, 86);
+    background-color: #596D48;
   }
 
   input, textarea, select, button {
+    border-color: #E5E7EB;
     width : 150px;
     padding: 0;
     margin: 0 20px 0 0;
@@ -77,7 +78,7 @@ ul {
   }
 
   form {
-    background-color: white;
+    background-color: rgb(192, 189, 189);
     /* Center the form on the page */
     margin: 0 auto;
     width: 50vw;
@@ -85,7 +86,6 @@ ul {
     /* Form outline */
     padding: 1em;
     border: 1px solid #CCC;
-    border-radius: 1em;
    
   }
 
@@ -95,7 +95,8 @@ ul {
 
   input:focus{
   /* Additional highlight for focused elements */
-  border-color: #000;
+  border: solid 1px blue;
+  box-shadow: 1px 1px #6d6c6c;
 }
 
 .rows{
@@ -105,12 +106,11 @@ ul {
 
 #row1 {
   height: 33vh;
-  background-color: purple;
+  background-color: rgb(245, 249, 252);
 }
 
 #row2 {
   height: 33vh;
-  background-color: blue;
 }
 
 
@@ -119,3 +119,7 @@ ul {
   background-color: yellow;
 }
 
+#row1 > p {
+  font-size: 2rem;
+
+}
