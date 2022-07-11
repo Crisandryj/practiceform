@@ -26,8 +26,8 @@ body{
 
 #odin {
   color: white;
-  width: 100%;
   font-size: 3rem;
+  font-family: my-cool-font;
 }
 
 
@@ -54,7 +54,6 @@ img{
   background-color: rgba(15, 13, 13, 0.5);
   align-items: center;
   justify-content: center;
-  font-family: my-cool-font;
 }
 
 button, input, select {
