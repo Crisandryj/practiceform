@@ -42,7 +42,7 @@ body{
 }
 img{
   height:17vh ;
-  width: 100%;
+  width: auto;
 }
 
 .logo{
@@ -155,4 +155,10 @@ button + p{
   position: absolute;
   top:30px;
   left: 30px;
+}
+
+legend{
+  padding-top: 10px;
+  font-weight: bold;
+  padding-bottom: 10px;
 }
