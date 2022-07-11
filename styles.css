@@ -26,13 +26,15 @@ body{
 
 #odin {
   color: white;
+  width: 100%;
   font-size: 3rem;
 }
 
-#image{
 
-  height: 100vh;
-  width: 50%;
+#image{
+  position: relative;
+  height: 750px;
+  width: 100%;
   background-image: url(background.avif);
   background-position: center;
   background-repeat: no-repeat;
@@ -46,7 +48,7 @@ img{
 .logo{
   position: absolute;
   top: 100px;
-  width: 400px;
+  width: 100%;
   display: flex;
   flex-direction: row;
   background-color: rgba(15, 13, 13, 0.5);
@@ -96,13 +98,10 @@ ul {
     background-color: white;
     /* Center the form on the page */
     margin: 0 auto;
-    width: 50vw;
-    height: 33vh;
+    width: 870px;
+    height: 250px;
     /* Form outline */
-    padding: 1em;
     border: 1px solid #CCC;
-    overflow: scroll;
-   
   }
 
   form li + li {
@@ -121,22 +120,22 @@ ul {
 }
 
 #row1 {
-  height: 33%;
+  height: 250px;
   background-color: rgb(245, 249, 252);
-  width: 100%;
+  width: 870px;
 }
 
 #row2 {
-  height: 33vh;
-  width: 100%;
+  height: 250px;
+  width: 870px;
 }
 
 
 #row3 {
   position: relative;
-  height: 33vh;
+  height: 250px;
   background-color: rgb(245, 249, 252);
-  width: 100%;
+  width: 870px;
 }
 
 #row1 > p {
